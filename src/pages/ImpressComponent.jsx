@@ -5,8 +5,10 @@ import 'react-impressjs/styles/react-impressjs.css';
 
 import Introduction from './Introduction';
 import About from './About';
+import AboutMe from './AboutMe';
 
-
+import BigText from './BigText';
+import Timeline from './Timeline';
 
 
 import styled from 'styled-components';
@@ -60,21 +62,19 @@ const slides = [
             scale: 5
         },
         content: [
-            <p>It’s a <strong>presentation tool</strong> <br />
-            inspired by the idea behind <a href="http://prezi.com" target="_blank" rel="nofollow">prezi.com</a> <br />
-            and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+            <AboutMe/>
         ]
     },
     {
         id: "big",
         data: {
-            x: 3500,
-            y: 2100,
+            x: 4700,
+            y: 2500,
             rotateZ: 180,
             scale: 6
         },
         content: [
-            <p>visualize your <b>big</b> <span className="thoughts">thoughts</span></p>
+            <BigText/>
         ]
     },
     {
