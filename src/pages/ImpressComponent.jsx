@@ -80,55 +80,53 @@ const slides = [
     {
         id: "tiny",
         data: {
-            x: 2825,
-            y: 2325,
-            z: -3000,
-            rotateZ: 300,
-            scale: 1
+            x:2825,
+            y:2325,
+            z:-3000,
+            rotateZ:300,
+            scale:1
         },
         content: [
-            <p>and <b>tiny</b> ideas</p>
+            <Timeline/>
         ]
-    },
-    {
-        id: "ing",
-        data: {
-            x: 3500,
-            y: -850,
-            rotateZ: 270,
-            scale: 6
-        },
-        content: [
-            <p>by <b className="positioning">positioning</b>, <b className="rotating">rotating</b> and <b className="scaling">scaling</b> them on an infinite canvas</p>
-        ]
-    },
-    {
+    },{
         id: "imagination",
         data: {
-            x: 6700,
+            x: 8700,
             y: -300,
             scale: 6
         },
         content: [
-            <p>the only <b>limit</b> is your <b className="imagination scaling-up">imagination</b></p>
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed text-center p-4 bg-gradient-to-r from-purple-800 via-indigo-800 to-blue-800 text-white rounded-lg shadow-lg">
+                I like{' '}
+                <b className="text-blue-300 font-semibold hover:underline transition duration-300 transform hover:scale-110">hiking</b>,{' '}
+                <b className="text-green-300 font-semibold hover:underline transition duration-300 transform hover:scale-110">cooking</b>{' '}
+                <b className="text-purple-300 font-semibold hover:underline transition duration-300 transform hover:scale-110">anime/manga</b> and{' '}
+                <span className="inline-block mt-4"> {/* Add margin-top for spacing */}
+                    <b className="imagination scaling-up text-red-300 font-semibold hover:underline transition duration-300 transform hover:scale-110 ml-2">machine</b>
+                    <br /> {/* Line break for vertical gap */}
+                    <b className="imagination scaling-up text-red-300 font-semibold hover:underline transition duration-300 transform hover:scale-110">learning</b>
+                </span>
+            </p>
         ]
+        
     },
 
     {
         id: "one-more-thing",
         data: {
-            x: 6000,
+            x: 9000,
             y: 4000,
             scale: 2
         },
         content: [
-            <p>one more thing...</p>
+            <p>One more thing...</p>
         ]
     },
     {
         id: "its-in-3d",
         data: {
-            x: 6200,
+            x: 10200,
             y: 4300,
             z: -100,
             rotateX: -40,
@@ -136,22 +134,7 @@ const slides = [
             scale: 2
         },
         content: [
-            <p><span className="have">have</span> <span className="you">you</span> <span className="noticed">noticed</span> <span className="its">it’s</span> <span className="in">in</span> <b>3D<sup>*</sup></b>?</p>,
-            <span className="footnote">* beat that, prezi ;)</span>
-        ]
-    },
-    {
-        id: "by-react-impressjs",
-        data: {
-            x: 3000,
-            y: 6000,
-            z: 4000,
-            rotateX: -70,
-            rotateY: 30,
-            scale: 10
-        },
-        content: [
-            <p>This demo of impress.js is made via <a href="https://github.com/GeorgioWan/react-impressjs" target="_blank">React-impressJS</a></p>
+            <p><span className="have">have</span> <span className="you">a</span> <span className="noticed">great</span> day </p>,
         ]
     }
   ];
