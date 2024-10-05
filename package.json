@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Lekhak123.github.io/personal_website",
+  "homepage": "https://lekhak123.github.io/Personal-Website/",
   "dependencies": {
     "@chakra-ui/react": "^2.9.4",
     "@emotion/react": "^11.13.3",
