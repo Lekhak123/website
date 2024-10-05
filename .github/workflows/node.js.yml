@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  id-token: write # Include this if you're using it for other purposes
+
+
 jobs:
   build:
 
