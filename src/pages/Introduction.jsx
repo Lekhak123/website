@@ -83,7 +83,7 @@ const Introduction = () => {
     <Container>
    <div className="avatar">
   <div className="w-28 rounded-full">
-    <img src="https://media.discordapp.net/attachments/1148037983694499910/1291588918273376418/1720935474435.png?ex=6700a56a&is=66ff53ea&hm=54ea5d0188a09b3bbe162fb6c95d0744dfd57499365f54fe203df8eb069981fa&=&format=webp&quality=lossless&width=437&height=437" />
+    <img src="https://media.discordapp.net/attachments/1148037983694499910/1291588918273376418/1720935474435.png?ex=6700a56a&is=66ff53ea&hm=54ea5d0188a09b3bbe162fb6c95d0744dfd57499365f54fe203df8eb069981fa&=&format=webp&quality=lossless&width=437&height=437" alt=" of me" />
   </div>
 </div>
 

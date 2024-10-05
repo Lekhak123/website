@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import React from 'react';
+import { ReactCompareSlider } from 'react-compare-slider';
 
 import Compare1 from './Compare1';
 import Compare2 from './Compare2';
