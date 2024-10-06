@@ -78,7 +78,7 @@ const AboutMe = () => {
               <div className="w-10 rounded-full">
                 <img
                   alt="Avatar"
-                  src="../../public/1720935474435.png"
+                  src="/website/1720935474435.png"
                 />
               </div>
             </div>
