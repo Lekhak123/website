@@ -33,7 +33,7 @@ const Compare2 = () => {
     <Container>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-pink-400 via-orange-500 to-yellow-600 p-6">
         <h1 className="text-5xl font-extrabold text-black mb-8 animate-bounce">Download My Resume</h1>
-        <a href="/resume.pdf" download className="bg-black text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition duration-300 transform hover:scale-105">
+        <a href="/website/resume.pdf" download="resume.pdf" className="bg-black text-white font-bold py-2 px-4 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition duration-300 transform hover:scale-105">
           <FaDownload size={20} />
           <span>Download</span>
         </a>

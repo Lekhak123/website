@@ -78,7 +78,7 @@ const AboutMe = () => {
               <div className="w-10 rounded-full">
                 <img
                   alt="Avatar"
-                  src="https://media.discordapp.net/attachments/1148037983694499910/1291588918273376418/1720935474435.png?ex=6700a56a&is=66ff53ea&hm=54ea5d0188a09b3bbe162fb6c95d0744dfd57499365f54fe203df8eb069981fa&=&format=webp&quality=lossless&width=437&height=437"
+                  src="/website/1720935474435.png"
                 />
               </div>
             </div>
@@ -92,7 +92,7 @@ const AboutMe = () => {
               <div className="w-10 rounded-full">
                 <img
                   alt="Avatar"
-                  src="https://media.discordapp.net/attachments/1148037983694499910/1291588918273376418/1720935474435.png?ex=6700a56a&is=66ff53ea&hm=54ea5d0188a09b3bbe162fb6c95d0744dfd57499365f54fe203df8eb069981fa&=&format=webp&quality=lossless&width=437&height=437"
+                  src="/1720935474435.png"
                 />
               </div>
             </div>
@@ -106,7 +106,7 @@ const AboutMe = () => {
               <div className="w-10 rounded-full">
                 <img
                   alt="Avatar"
-                  src="https://media.discordapp.net/attachments/1148037983694499910/1291588918273376418/1720935474435.png?ex=6700a56a&is=66ff53ea&hm=54ea5d0188a09b3bbe162fb6c95d0744dfd57499365f54fe203df8eb069981fa&=&format=webp&quality=lossless&width=437&height=437"
+                  src="/1720935474435.png"
                 />
               </div>
             </div>
